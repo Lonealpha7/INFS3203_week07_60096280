@@ -19,5 +19,5 @@ class TestEmployeeManagementSystem(unittest.TestCase):
         self.system.delete_employee_by_id(3)
         self.assertEqual(len(self.system.employees), 0)
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     unittest.main()

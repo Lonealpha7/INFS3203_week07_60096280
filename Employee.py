@@ -1,12 +1,12 @@
 class Employee:
-    def _init_(self, name, age, emp_id, department):
+    def __init__(self, name, age, emp_id, department):
         self.name = name
         self.age = age
         self.emp_id = emp_id
         self.department = department
 
 class EmployeeManagementSystem:
-    def _init_(self):
+    def __init__(self):
         self.employees = []
 
     def create_employee(self, name, age, emp_id, department):
